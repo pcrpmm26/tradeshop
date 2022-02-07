@@ -7,7 +7,7 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 <style type="text/css">
-nav{
+div{
 	color: gray;
 	font-family: 'Athiti', sans-serif;
 }
@@ -28,6 +28,17 @@ nav{
                 <li class="nav-item"><a class="nav-link" routerLink="/product/new">เพิ่มสินค้า</a></li>
                 <li class="nav-item"><a class="nav-link" routerLink="/login">Login</a></li>
                 <li class="nav-item"><a class="nav-link" routerLink="/register">Register</a></li>
+
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">บัญชีของฉัน</a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="/accountuser">แก้ไขข้อมูล</a></li>
+                    <li><a class="dropdown-item" href="/menu">รายการของฉัน</a></li>
+                    <li><a class="dropdown-item" href="/exchange">คำร้องขอแลกเปลี่ยน</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">ออกจากระบบ</a></li>
+                  </ul>
+                </li>
             </ul>
         </div>
     </div>
